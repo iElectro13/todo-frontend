@@ -8,7 +8,7 @@ const Task = ({ task }) => {
             <div className="flex justify-between items-center w-full">
                 <h3 className="text-center text-2xl font-bold text-neutral-800">{task.title}</h3>
             </div>
-            <p className="text-neutral-700">{task.description}</p>
+            <p className="text-neutral-700 text-left w-full">{task.description}</p>
             {task.isDone ? (
                 <div className="btn btn-primary flex justify-between items-center">
                     <span>Mark as undone</span>
