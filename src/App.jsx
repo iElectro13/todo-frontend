@@ -9,6 +9,7 @@ import Navbar from "./components/sections/Navbar";
 import Footer from "./components/sections/Footer";
 
 function App() {
+    
     return (
         <div className="bg-neutral-100 min-h-screen text-neutral-800 flex flex-col justify-between items-center">
             <Navbar />
@@ -23,7 +24,7 @@ function App() {
                     element={<CreateTask title="Creating new task" />}
                 />
                 <Route
-                    path="tasks/update"
+                    path="tasks/update/:id"
                     element={<UpdateTask title="Updating a task" />}
                 />
                 <Route
