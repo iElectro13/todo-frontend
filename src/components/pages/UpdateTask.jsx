@@ -55,6 +55,8 @@ const UpdateTask = ({ title }) => {
                         className="p-1"
                         defaultValue={task.title}
                         ref={titleInput}
+                        required="required"
+
                     />
                 </div>
                 <div className="w-full flex flex-col gap-2">
@@ -68,6 +70,7 @@ const UpdateTask = ({ title }) => {
                         className="p-1"
                         defaultValue={task.description}
                         ref={descriptionInput}
+                        required="required"
                     />
                 </div>
                 <button type="submit" className="btn btn-primary">

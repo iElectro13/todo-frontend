@@ -32,7 +32,7 @@ const Task = ({ task }) => {
         console.log(state.tasks[0])
     };
     return (
-        <div className="flex flex-col justify-center items-center bg-white rounded p-4 gap-3">
+        <div className="flex flex-col justify-center items-center bg-white rounded p-4 gap-3 w-full">
             <div className="flex justify-between items-center w-full">
                 <h3 className="text-center text-2xl font-bold text-neutral-800">
                     {task.title}

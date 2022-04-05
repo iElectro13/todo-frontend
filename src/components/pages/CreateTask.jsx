@@ -41,6 +41,8 @@ const CreateTask = ({ title }) => {
                         placeholder="Write a title"
                         className="p-1"
                         ref={titleInput}
+                        required="required"
+
                     />
                 </div>
                 <div className="w-full flex flex-col gap-2">
@@ -53,6 +55,7 @@ const CreateTask = ({ title }) => {
                         placeholder="Write a description"
                         className="p-1"
                         ref={descriptionInput}
+                        required="required"
 
                     />
                 </div>
